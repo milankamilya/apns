@@ -1,14 +1,14 @@
-# apns
+# Apple Push Notification Service ( APNS )
 How to send push notification in iPhone, iPad ( iOS devices ) from APNS using App Key
 
 # Prerequisites
 Hey Devs, hope you know about Push Notifications (PN) already. If you like to know please use this link how to setup push notification in your Apple Developer and how to incorporate it in your iOS Xcode project.
 
-To send PN to iOS devices, we need a Certificate ( p12 ) or App Key ( p8 ). Using certificate comes liability of yearly maintenance. You need to update certificate each year as it expires. Using App Key is latest Procedure. (How to generate App Key)[https://help.apple.com/developer-account/#/devcdfbb56a3].
+To send PN to iOS devices, we need a Certificate ( p12 ) or App Key ( p8 ). Using certificate comes liability of yearly maintenance. You need to update certificate each year as it expires. Using App Key is latest Procedure. [How to generate App Key](https://help.apple.com/developer-account/#/devcdfbb56a3).
 
 *WARNING*: Hope you saved App Key in a secure place because the key is not saved in your developer account and you won’t be able to download it again. If the Download button is disabled, you previously downloaded the key.
 
-We will use nodejs as server. So, please check whether you have nodejs installed on your pc. (To install nodejs follow this.)[https://nodejs.org/en/download/]
+We will use nodejs as server. So, please check whether you have nodejs installed on your pc. [To install nodejs follow this.](https://nodejs.org/en/download/)
 
 
 # How Install
@@ -25,13 +25,13 @@ To run the server, run 'npm start' in terminal from the project directory.
 
 # How to Send First Test Push Notification
 We are using Postman for POST http call. 
-
+```
 URL     : 'http://127.0.0.1:3000/apn'
 Headers : Content-Type = application/json
 Body    : {
 	"deviceToken": "< collect & put push notification device token from real iOS one >"
 }
-
+```
 Now, click on send. 
 
 CHEERS!!!, you got the first push notification.
@@ -39,4 +39,4 @@ CHEERS!!!, you got the first push notification.
 If you face any issue, please create a issue in github. I will help you out
 
 # Author
-Milan Kamilya, (twitter)[https://twitter.com/Milan_Kamilya]
+Milan Kamilya, [twitter](https://twitter.com/Milan_Kamilya)
