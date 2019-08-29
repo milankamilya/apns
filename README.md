@@ -2,7 +2,7 @@
 How to send push notification in iPhone, iPad ( iOS devices ) from APNS using App Key
 
 # Prerequisites
-Hey Devs, hope you know about Push Notifications (PN) already. If you like to know please use this link how to setup push notification in your Apple Developer and how to incorporate it in your iOS Xcode project.
+Hey Devs, hope you know about Push Notifications (PN) already. If you like to know please use this link (how to setup push notification in your Apple Developer)[https://developer.apple.com/documentation/usernotifications] and (how to incorporate it in your iOS Xcode project)[https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns].
 
 To send PN to iOS devices, we need a Certificate ( p12 ) or App Key ( p8 ). Using certificate comes liability of yearly maintenance. You need to update certificate each year as it expires. Using App Key is latest Procedure. [How to generate App Key](https://help.apple.com/developer-account/#/devcdfbb56a3).
 
@@ -37,6 +37,12 @@ Now, click on send.
 CHEERS!!!, you got the first push notification.
 
 If you face any issue, please create a issue in github. I will help you out
+
+# Troubleshooting APNS
+Please check following link to troubleshoot various cases.
+- Remote notification delegates aren't getting called 
+- Various Cases where you will not get push notifictions
+(You will get the answers here)[https://developer.apple.com/library/archive/technotes/tn2265/_index.html]
 
 # Author
 Milan Kamilya, [twitter](https://twitter.com/Milan_Kamilya)
