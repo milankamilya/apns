@@ -42,7 +42,7 @@ If you face any issue, please create a issue in github. I will help you out
 Please check following link to troubleshoot various cases.
 - Remote notification delegates aren't getting called 
 - Various Cases where you will not get push notifictions
-(You will get the answers here)[https://developer.apple.com/library/archive/technotes/tn2265/_index.html]
+[You will get the answers here](https://developer.apple.com/library/archive/technotes/tn2265/_index.html)
 
 # Author
 Milan Kamilya, [twitter](https://twitter.com/Milan_Kamilya)
