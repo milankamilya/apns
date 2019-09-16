@@ -45,4 +45,4 @@ Please check following link to troubleshoot various cases.
 [You will get the answers here](https://developer.apple.com/library/archive/technotes/tn2265/_index.html)
 
 # Author
-Milan Kamilya, [twitter](https://twitter.com/Milan_Kamilya), [LinedIn](https://www.linkedin.com/in/milan-kamilya-6427a82a)
+Milan Kamilya, [twitter](https://twitter.com/Milan_Kamilya), [LinkedIn](https://www.linkedin.com/in/milan-kamilya-6427a82a)
